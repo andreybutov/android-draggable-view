@@ -4,7 +4,7 @@ An implementation of a draggable Android View that can be modified as it moves.
 ### Overview
 The standard approach to implementing a draggable/movable **View** in Android is to rely on **DragShadowBuilder**. For many situations, this would be the easiest approach. However, in some cases, where, for example, you need to modify the view as it is being dragged, DragShadowBuilder won't do, as it's just not flexible enough.
 
-This is an example of an alternate implementation of a simulated draggable View, without the dependency on DragShadowBuilder. With this approach you have full access to the view being dragged (actually, the cached **Bitmap** image of the view), as such, the view can be modified while moving.
+This is an example of an alternate implementation of a simulated draggable View, without the dependency on DragShadowBuilder. With this approach you have full access to the view being dragged (actually, the cached **Bitmap** image of the view), and, as such, the view can be modified while moving.
 
 ### Implementation Notes
 
